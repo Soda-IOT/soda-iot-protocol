@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FEECF251-9A16-46AE-9853-874F4515CB7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{F8DF9991-F1C0-454C-BAC7-0D7E651BFA7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{755AC9FC-889F-4777-8B0D-93EAA56291E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SodaIOT.Protocol", "src\SodaIOT.Protocol\SodaIOT.Protocol.csproj", "{E1BA4EC0-9A05-4DD9-B057-527012EC0D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SodaIOT.Protocol.Tests", "tests\SodaIOT.Protocol.Tests\SodaIOT.Protocol.Tests.csproj", "{3A5BA846-AA19-4956-82A4-B6E9A534171A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SodaIOT.Protocol.Json", "src\SodaIOT.Protocol.Json\SodaIOT.Protocol.Json.csproj", "{54A3AAA0-6996-4FF1-86A6-BB0509B86DB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1BA4EC0-9A05-4DD9-B057-527012EC0D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BA4EC0-9A05-4DD9-B057-527012EC0D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BA4EC0-9A05-4DD9-B057-527012EC0D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BA4EC0-9A05-4DD9-B057-527012EC0D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5BA846-AA19-4956-82A4-B6E9A534171A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5BA846-AA19-4956-82A4-B6E9A534171A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5BA846-AA19-4956-82A4-B6E9A534171A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5BA846-AA19-4956-82A4-B6E9A534171A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A3AAA0-6996-4FF1-86A6-BB0509B86DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A3AAA0-6996-4FF1-86A6-BB0509B86DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A3AAA0-6996-4FF1-86A6-BB0509B86DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A3AAA0-6996-4FF1-86A6-BB0509B86DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1BA4EC0-9A05-4DD9-B057-527012EC0D47} = {FEECF251-9A16-46AE-9853-874F4515CB7E}
+		{3A5BA846-AA19-4956-82A4-B6E9A534171A} = {755AC9FC-889F-4777-8B0D-93EAA56291E9}
+		{54A3AAA0-6996-4FF1-86A6-BB0509B86DB6} = {FEECF251-9A16-46AE-9853-874F4515CB7E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDF72345-BD31-437F-AA38-F0DF1EB6802B}
+	EndGlobalSection
+EndGlobal
